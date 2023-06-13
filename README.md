@@ -72,3 +72,15 @@ To use TypeScript and webpack in a production environment, create and run the sc
 Excellent! That's all, folks! But hold on...
 
 A desirable folder structure is like:
+
+![App Screenshot](https://github.com/williancapitolio/tspluswebpack/blob/main/tspluswebpackfolders.png?raw=true)
+
+It is necessary to create a src folder with an index.ts file and a public folder with an index.html file
+
+In index.html add the script
+
+```bash
+  <script src="./dist/index.js"></script>
+```
+
+Excellent! Now really that's all, folks!
