@@ -91,7 +91,7 @@ Excellent! That's all, folks! But hold on...
 
 A desirable folder structure is like:
 
-![App Screenshot](https://github.com/williancapitolio/tspluswebpack/blob/main/tspluswebpackfolders.png?raw=true)
+![App Screenshot](https://github.com/williancapitolio/tspluswebpack/blob/main/screenshot.png?raw=true)
 
 It is necessary to create a src folder with an index.ts file and a public folder with an index.html file
 
