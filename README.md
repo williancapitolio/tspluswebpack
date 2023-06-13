@@ -20,6 +20,24 @@ Run the command to create the tsconfig.json file
   npx tsc --init
 ```
 
+The tsconfig.json file will generate several options, but some required are
+
+```bash
+  {
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "outDir": "./public/dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true 
+  },
+  "include": ["src"]
+}
+```
+
 To use only the TypeScript create and run the script
 
 ```bash
